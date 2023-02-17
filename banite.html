@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banite</title>
+    <style>
+
+        body{
+            background: linear-gradient(180.3deg, rgb(214, 224, 255) 37.2%, rgb(254, 168, 168) 137.3%);
+            margin: auto 70px;
+            padding: 0 20px
+            
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 48mp;
+           color:#5f5dbd;
+           text-shadow: 10% #fafafa;
+           margin-bottom: 10% auto;
+           padding: 30px 10px;
+           margin: 30px 200px;
+           display: block;
+           border: solid 5px  #fafafa;
+           line-height: normal;
+           border-radius: 10em 30em ;
+            
+           
+           
+        }
+        .box{
+            border-width: 5%;
+           border-bottom: 5em;
+           border-color: black;
+        }
+        h2{
+            text-align: center;
+            font-size: 35mp;
+            color:#7c73e6;
+        }
+        hr{
+            color:#fff;
+        }
+        img
+        {
+            margin: auto 10%;
+            padding: 10px;
+            max-width: 500px 800px;
+        border-radius: 10% 30%;
+        }
+        .info{
+            font-size: 20px;
+            text-align: center;
+            margin: 5px 10px;
+           padding: 10px 60px;
+        }
+        button{
+            color: #000;
+  background: #ec729c;
+  text-align: center;
+  padding: 15px 200px;
+  margin: 50px 300px;
+  border: 1px solid rgb(145, 226, 236);
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
+}
+button:hover
+{
+  background: #f4aeba;
+  color: #000;
+  cursor: grabbing;
+  display: block;
+  border: 1px solid #c9356c;
+  border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <em>
+        Health village Banite
+    </em>
+    </h1>
+    <h2 >
+        The charms of the area
+    </h2>
+    <hr>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/042/358/original/Banite.jpg?1659348468"
+    width="80%"
+    alt="Bulgarian sky">
+    <hr>
+    <p>
+        <span class="info">
+        The mineral water in Banite municipality is hyperthermal (43), slightly alkaline (ph 7.2), with a flow rate of 6-7 l/sec.
+        In terms of mineralization, the water in the municipality of Banite has been compared to the world-famous Czech resort of Karlovy Vary.
+        Contains nitrogen, hydrocarbons, sulfate, sodium and fluorine compounds. Based on the specificity of the mineral water in the resort, a number of diseases are treated, such as: diseases of the musculoskeletal system, diseases of the peripheral nervous system, diseases of the gastrointestinal tract, etc. </br> There is one of the best rehabilitation centers in Bulgaria, part of the National Complex "Specialized Rehabilitation Hospitals" EAD is located in the municipal center - the village of Banite, 60 km. east of the town of Smolyan and 120 km. south of the city of Plovdiv, in a picturesque area with wonderful conditions for recreation and tourism.
+    </span>
+    </p>
+    
+<a
+href="https://visitbanite.bg/" class="more">
+<strong>
+    More info
+</strong>
+</a>
+</br>
+<div >
+<button class="visit">
+    Visit place
+</button>
+</div>
+</body>
+<script>
+    function visit(){
+      let name = prompt("What is your name?");
+      let email = prompt("What is your email address?");
+      let country = prompt("From which country are you?");
+        if(country === "bulgaria") {
+        alert(`You are near! :подмигивание: `);
+        }else{ alert (`It's far but you can handle it!`);
+         }
+    }
+  let visitButton = document.querySelector("button");
+  visitButton.addEventListener("click", visit);
+  </script
+</html>
