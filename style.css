@@ -118,8 +118,8 @@ display:none;
 }
 
 .btn{
-  display: flex;
-  justify-content: center;
- 
+  display: block;
+  text-align: center;
+ width: 100%;
 
 }
