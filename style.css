@@ -109,11 +109,16 @@ p {
 
 }
 
-@media (max-width: 900px){
+@media (min-width: 576px){
 
   img{
 
 
 display:none;
 }
+
+.btn{
+  text-align: center;
+}
+
 }
