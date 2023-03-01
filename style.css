@@ -102,9 +102,18 @@ p {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.pretty {
+.pretty 
   .img-fluid {
     max-width: 100%;
     height: auto;
 
+}
+
+@media (max-width: 900px){
+
+  img{
+
+
+display:none;
+}
 }
