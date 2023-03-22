@@ -112,13 +112,11 @@ p {
 @media (max-width: 600px){
 
   img{
-
-
 display:none;
 }
 
 .btn{
-  position: absolute;
+  position: center;
 
 }
 }
